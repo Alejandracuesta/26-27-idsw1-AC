@@ -7,3 +7,5 @@
   - ¿Por qué hace falta?
   - ¿Para qué se subdivide en actividades y disciplinas?
   - Actividad, rol y artefacto.
+
+- Modelo del dominio
