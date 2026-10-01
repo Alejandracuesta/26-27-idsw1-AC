@@ -2,7 +2,7 @@
 
 ## SIMPATIA:
 
-###GLOSARIO:
+### GLOSARIO:
 - Persona: individuo que interactua con otras personas.
 - Interaccion: situacion en la que dos o mas personas se relacionan.
 - Comportamiento: accion o actitud mostrada durante una interaccion.

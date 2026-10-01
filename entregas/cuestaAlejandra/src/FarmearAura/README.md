@@ -9,7 +9,7 @@
 - Evento: situacion en la que puede realizarse una accion.
 - RegistroAura: registro de una ganancia de aura producida por una accion.
 
-##SUPUESTOS:
+### SUPUESTOS:
 1. Una persona tiene una determinada cantidad de aura.
 2. Las acciones pueden proporcionar una cantidad de aura.
 3. La cantidad obtenida depende de la accion y su dificultad.
