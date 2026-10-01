@@ -1,0 +1,29 @@
+@startuml
+
+class Persona {
+    nombre
+    aura
+}
+
+class Accion {
+    tipo
+    dificultad
+    recompensaAura
+}
+
+class Evento {
+    nombre
+    fecha
+}
+
+class RegistroAura {
+    cantidad
+    fecha
+}
+
+Persona "1" -- "0..*" Accion : realiza
+Accion "0..*" -- "0..1" Evento : ocurre en
+Persona "1" -- "0..*" RegistroAura : obtiene
+RegistroAura "*" --> "1" Accion : procede de
+
+@enduml
