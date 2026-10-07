@@ -29,7 +29,7 @@ class RedesSociales {
     red social
 }
 
-class Valoracion {
+class Puntuacion {
     nota
     comentario
 }
@@ -48,8 +48,8 @@ Gesto --> PuntosDeAura : da
 PuntosDeAura --> Aura : recibe
 GrupoDeAmigos --> Clip : graba
 Clip --> RedesSociales : se publica
-RedesSociales --> Valoracion : recibe
-Valoracion --> Admiracion : genera
+RedesSociales --> Puntuacion : recibe
+Puntuacion --> Admiracion : genera
 Admiracion --> Aura : aumenta
 Aura --> Leyenda : convierte
 Leyenda --> Persona : hace leyenda

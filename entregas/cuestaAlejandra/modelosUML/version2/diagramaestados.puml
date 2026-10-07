@@ -9,8 +9,8 @@ DaPuntos --> AuraRecibePuntos : 4. recibirPuntos()
 AuraRecibePuntos --> GrupoGrabaClip : 5. grabarClip()
 GrupoGrabaClip --> ClipPublicado : 6. publicarEnRedes()
 
-ClipPublicado --> RecibeValoracion : 7. recibirValoracion()
-RecibeValoracion --> GeneraAdmiracion : 8. generarAdmiracion()
+ClipPublicado --> RecibePuntuacion : 7. recibirPuntuacion()
+RecibePuntuacion --> GeneraAdmiracion : 8. generarAdmiracion()
 GeneraAdmiracion --> AuraAumenta : 9. aumentarAura()
 
 AuraAumenta --> SeConvierteEnLeyenda : 10. convertirEnLeyenda()

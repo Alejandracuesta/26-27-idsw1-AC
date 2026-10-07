@@ -33,7 +33,7 @@ class RedesSociales {
     - nombre : String
 }
 
-class Valoracion {
+class Puntuacion {
     - puntuacion : int
     - comentario : String
 }
@@ -52,8 +52,8 @@ Gesto --> PuntosDeAura : da
 PuntosDeAura --> Aura : recibe
 GrupoDeAmigos --> Clip : graba
 Clip --> RedesSociales : se publica
-RedesSociales --> Valoracion : recibe
-Valoracion --> Admiracion : genera
+RedesSociales --> Puntuacion : recibe
+Puntuacion --> Admiracion : genera
 Admiracion --> Aura : aumenta
 Aura --> Leyenda : convierte
 Leyenda --> Persona : hace leyenda

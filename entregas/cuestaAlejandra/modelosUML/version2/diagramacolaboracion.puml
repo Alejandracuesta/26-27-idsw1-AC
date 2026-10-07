@@ -7,8 +7,8 @@ object "pa : PuntosDeAura" as pa
 object "a : Aura" as a
 object "cl : Clip" as cl
 object "r : RedesSociales" as r
-object "v : Valoracion" as v
-object "ad : Admiracion" as ad
+object "v : Puntuación" as v
+object "ad : Admiración" as ad
 object "l : Leyenda" as l
 
 p --> g : 1. perteneceAlGrupo()
@@ -17,7 +17,7 @@ ge --> pa : 3. darPuntos()
 pa --> a : 4. recibirPuntos()
 g --> cl : 5. grabarClip()
 cl --> r : 6. publicarEnRedes()
-r --> v : 7. recibirValoracion()
+r --> v : 7. recibirPuntuacion()
 v --> ad : 8. generarAdmiracion()
 ad --> a : 9. aumentarAura()
 a --> l : 10. convertirEnLeyenda()
